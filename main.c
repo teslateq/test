@@ -37,7 +37,7 @@ uint8_t check_phone(volatile char *data1, volatile char *str, uint16_t num);
 #define num_ena_sdt 2
 #define DOMAIN "f6555aed.ap.ngrok.io"
 
-
+int abc;
 uint8_t d[100];
 uint16_t temp, volt;
 
@@ -123,13 +123,6 @@ int main(void)
 	
 	init_value();
 		
-	//GSMD("AT+CMGF=1\n",50);
-	//GSMD("AT+CGATT=1\n",50);
-	//GSMD("AT+CGDCONT=1\n",50);
-	//GSMD("AT+CGQMIN=1\n",50);  // min quality
-	//GSMD("AT+CGQREQ=1\n",50);  // request quality
-	//GSMD("AT+CGACT=1,1\n",50);  // active GPRS profile
-	//GSMD("AT+CGDATA=PPP,1\n",50);  // active GPRS profile
 	
 	IWDG_ReloadCounter();
 	

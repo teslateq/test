@@ -1,5 +1,2 @@
-MDK-ARM/Project
-MDK-ARM/DebugConfig
-MDK-ARM/Debug
-EWARM
-MDK-ARM/*.uvguix
+MDK-ARM
+!MDK-ARM/Project.uvprojx
